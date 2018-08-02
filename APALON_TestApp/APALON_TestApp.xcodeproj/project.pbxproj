@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593FB8952112615A00FE2FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FB8942112615A00FE2FDB /* AppDelegate.swift */; };
+		593FB8972112615A00FE2FDB /* FontCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FB8962112615A00FE2FDB /* FontCollectionViewController.swift */; };
+		593FB89A2112615A00FE2FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593FB8982112615A00FE2FDB /* Main.storyboard */; };
+		593FB89C2112615A00FE2FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593FB89B2112615A00FE2FDB /* Assets.xcassets */; };
+		593FB89F2112615A00FE2FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 593FB89D2112615A00FE2FDB /* LaunchScreen.storyboard */; };
+		593FB8A921126C0E00FE2FDB /* MyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FB8A821126C0E00FE2FDB /* MyFont.swift */; };
+		593FB8AB21126F4300FE2FDB /* FontCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FB8AA21126F4300FE2FDB /* FontCollectionViewCell.swift */; };
+		593FB8AD21129F1500FE2FDB /* FontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593FB8AC21129F1500FE2FDB /* FontViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		593FB8912112615A00FE2FDB /* APALON_TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APALON_TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		593FB8942112615A00FE2FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		593FB8962112615A00FE2FDB /* FontCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCollectionViewController.swift; sourceTree = "<group>"; };
+		593FB8992112615A00FE2FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		593FB89B2112615A00FE2FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593FB89E2112615A00FE2FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		593FB8A02112615A00FE2FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		593FB8A821126C0E00FE2FDB /* MyFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFont.swift; sourceTree = "<group>"; };
+		593FB8AA21126F4300FE2FDB /* FontCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCollectionViewCell.swift; sourceTree = "<group>"; };
+		593FB8AC21129F1500FE2FDB /* FontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		593FB88E2112615A00FE2FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		593FB8882112615A00FE2FDB = {
+			isa = PBXGroup;
+			children = (
+				593FB8932112615A00FE2FDB /* APALON_TestApp */,
+				593FB8922112615A00FE2FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593FB8922112615A00FE2FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593FB8912112615A00FE2FDB /* APALON_TestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593FB8932112615A00FE2FDB /* APALON_TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				593FB8942112615A00FE2FDB /* AppDelegate.swift */,
+				593FB8962112615A00FE2FDB /* FontCollectionViewController.swift */,
+				593FB8AA21126F4300FE2FDB /* FontCollectionViewCell.swift */,
+				593FB8AC21129F1500FE2FDB /* FontViewController.swift */,
+				593FB8A821126C0E00FE2FDB /* MyFont.swift */,
+				593FB8982112615A00FE2FDB /* Main.storyboard */,
+				593FB89B2112615A00FE2FDB /* Assets.xcassets */,
+				593FB89D2112615A00FE2FDB /* LaunchScreen.storyboard */,
+				593FB8A02112615A00FE2FDB /* Info.plist */,
+			);
+			path = APALON_TestApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		593FB8902112615A00FE2FDB /* APALON_TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593FB8A32112615A00FE2FDB /* Build configuration list for PBXNativeTarget "APALON_TestApp" */;
+			buildPhases = (
+				593FB88D2112615A00FE2FDB /* Sources */,
+				593FB88E2112615A00FE2FDB /* Frameworks */,
+				593FB88F2112615A00FE2FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APALON_TestApp;
+			productName = APALON_TestApp;
+			productReference = 593FB8912112615A00FE2FDB /* APALON_TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		593FB8892112615A00FE2FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.MaximShirko;
+				TargetAttributes = {
+					593FB8902112615A00FE2FDB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 593FB88C2112615A00FE2FDB /* Build configuration list for PBXProject "APALON_TestApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 593FB8882112615A00FE2FDB;
+			productRefGroup = 593FB8922112615A00FE2FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				593FB8902112615A00FE2FDB /* APALON_TestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		593FB88F2112615A00FE2FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593FB89F2112615A00FE2FDB /* LaunchScreen.storyboard in Resources */,
+				593FB89C2112615A00FE2FDB /* Assets.xcassets in Resources */,
+				593FB89A2112615A00FE2FDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		593FB88D2112615A00FE2FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593FB8972112615A00FE2FDB /* FontCollectionViewController.swift in Sources */,
+				593FB8AB21126F4300FE2FDB /* FontCollectionViewCell.swift in Sources */,
+				593FB8A921126C0E00FE2FDB /* MyFont.swift in Sources */,
+				593FB8AD21129F1500FE2FDB /* FontViewController.swift in Sources */,
+				593FB8952112615A00FE2FDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		593FB8982112615A00FE2FDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593FB8992112615A00FE2FDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		593FB89D2112615A00FE2FDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593FB89E2112615A00FE2FDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593FB8A12112615A00FE2FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		593FB8A22112615A00FE2FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		593FB8A42112615A00FE2FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = APALON_TestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.APALON-TestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		593FB8A52112615A00FE2FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = APALON_TestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MS.APALON-TestApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		593FB88C2112615A00FE2FDB /* Build configuration list for PBXProject "APALON_TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593FB8A12112615A00FE2FDB /* Debug */,
+				593FB8A22112615A00FE2FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593FB8A32112615A00FE2FDB /* Build configuration list for PBXNativeTarget "APALON_TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593FB8A42112615A00FE2FDB /* Debug */,
+				593FB8A52112615A00FE2FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 593FB8892112615A00FE2FDB /* Project object */;
+}
