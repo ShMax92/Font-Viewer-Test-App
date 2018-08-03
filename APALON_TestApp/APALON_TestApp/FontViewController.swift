@@ -31,7 +31,7 @@ class FontViewController: UIViewController {
         //setup labels
         familyNameLabel.text = "Family: " + myFont.fontName
         weightLabel.text = "Weight: " + myFont.fontDescription
-        sizeLable.text = "Size: 17px"
+        sizeLable.text = "Size: " + String(describing: myFont.font.xHeight) + " points"
         exampleLabel.text = "Example"
     }
 }
