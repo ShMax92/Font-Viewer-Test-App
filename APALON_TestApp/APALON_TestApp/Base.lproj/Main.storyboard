@@ -99,7 +99,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uak-jk-Q8D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="uak-jk-Q8D">
                                 <rect key="frame" x="166" y="323" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -137,7 +137,6 @@
         <!--Navigation Controller-->
         <scene sceneID="EUk-1N-O0m">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YHE-xr-0qv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="IRC-i9-W1w" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bXq-aT-Sje">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -147,6 +146,7 @@
                         <segue destination="tK7-OB-A22" kind="relationship" relationship="rootViewController" id="frc-hg-bJk"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YHE-xr-0qv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-488" y="213"/>
         </scene>

@@ -24,14 +24,13 @@ class FontViewController: UIViewController {
         
         exampleLabel.font = myFont.font
         
-        //making Example 17px and green
-        exampleLabel.font.withSize(17)
+        exampleLabel.font.withSize(20)
         exampleLabel.textColor = UIColor.green
         
         //setup labels
         familyNameLabel.text = "Family: " + myFont.fontName
         weightLabel.text = "Weight: " + myFont.fontDescription
-        sizeLable.text = "Size: 17px"
-        exampleLabel.text = "Example"
+        sizeLable.text = "Size: " + String(describing: myFont.font.xHeight) + " points"
+        exampleLabel.text = "example"
     }
 }
